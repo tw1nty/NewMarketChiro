@@ -242,6 +242,8 @@ h6 {
   border-bottom: 1px solid var(--gray-50);
   font-size: 13px;
   color: var(--gray-600);
+  max-width: var(--container-width);
+  margin: 0 auto;
 }
 
 .header-top a {
