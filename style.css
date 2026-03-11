@@ -280,33 +280,10 @@ h6 {
   gap: 12px;
 }
 
-.logo-icon {
-  width: 42px;
-  height: 42px;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-size: 20px;
-}
-
-.logo-text h1 {
-  font-family: var(--font-heading);
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--gray-800);
-  line-height: 1.1;
-}
-
-.logo-text span {
-  font-family: var(--font-body);
-  font-size: 11px;
-  color: var(--gray-400);
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+.logo-image {
+  max-height: 48px;
+  width: auto;
+  display: block;
 }
 
 .nav {
@@ -1601,16 +1578,7 @@ h6 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.footer-brand .logo-text h3 {
-  font-size: 20px;
-  color: var(--white);
-  margin-bottom: 4px;
-}
 
-.footer-brand .logo-text span {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
-}
 
 .footer-brand>p {
   font-size: 14px;
